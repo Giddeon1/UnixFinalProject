@@ -29,10 +29,6 @@ echo "42f749ade7f9e195bf475f37a44cafcb" > md5.txt
 Hashcat requires wordlists to test password guesses against hashes.
 Common wordlists like rockyou.txt are included in Kali Linux and can be found in
 /usr/share/wordlists/.
-
-This work is dedicated to the public domain under the Creative Commons CC0 1.0
-Universal Public Domain Dedication. To view a copy of this dedication, visit
-https://creativecommons.org/publicdomain/zero/1.0/
 Unzip the file if it is compressed:
 sudo gunzip /usr/share/wordlists/rockyou.txt.gz
 4. Run Hashcat
@@ -57,9 +53,6 @@ If the wordlist is too small, performance may suffer due to insufficient workloa
 the GPU. Use modifiers like rules, masks, or hybrid attacks to amplify password
 candidates.
 
-This work is dedicated to the public domain under the Creative Commons CC0 1.0
-Universal Public Domain Dedication. To view a copy of this dedication, visit
-https://creativecommons.org/publicdomain/zero/1.0/
 7. Cleanup
 After cracking the hashes, delete sensitive files to avoid misuse:
 rm md5.txt sha1.txt
