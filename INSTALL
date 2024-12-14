@@ -1,0 +1,60 @@
+INSTALL GUIDE
+
+1. Install Kali Linux VM
+
+Download ISO:
+Go to https://www.kali.org/get-kali/#kali-virtual-machines.
+
+Install Virtualization Software: 
+Download and install VirtualBox or VMware.
+
+Create a New VM:
+Allocate at least 2 GB RAM and 20 GB storage.
+
+Load ISO and Install:
+Boot from the downloaded ISO and follow the on-screen installation steps.
+
+2. Install Debian Linux VM
+Download ISO:
+Go to https://www.debian.org/distrib/.
+
+Install Virtualization Software:
+Use VirtualBox or VMware.
+
+Create a New VM:
+Allocate at least 2 GB RAM and 20 GB storage.
+
+Load ISO and Install:
+Boot from the ISO and follow the guided installation.
+
+3. Install Hydra Tool
+
+On Kali or Debian:
+sudo apt update
+sudo apt install hydra
+
+Verify Installation:
+hydra -h
+
+4. Install Hashcat Tool
+
+On Kali or Debian:
+sudo apt update
+sudo apt install hashcat
+
+Verify Installation:
+hashcat --version
+
+5. Install John the Ripper Tool
+
+On Kali:
+Pre-installed in Kali Linux.
+john --version
+
+On Debian:
+sudo apt update
+sudo apt install john
+
+Verify Installation:
+john --version
+
